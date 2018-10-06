@@ -1,16 +1,25 @@
 ---
 ---
 
+/* ==Author styles================================= */
 html {
   box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-  box-sizing: inherit; /* ==Author styles================================= */
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
 } /* ==Colour variables============= */
 $dark-brown: hsl(32, 39%, 18%);
 body {
   background-color: hsl(44, 44%, 90%);
   color: $dark-brown;
+} /* =Media queries----------------------------------------- */
+@media screen and (min-width: 960px) {
+  body {
+    font-size: 130%;
+  }
 }
