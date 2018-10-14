@@ -13,9 +13,23 @@ html {
 img {
   max-width: 100%;
 } /* ==Colour variables============= */
-$dark-brown: hsl(32, 39%, 18%);
+$dark-brown: hsl(33, 75%, 11%);
 body {
-  background-color: hsl(44, 44%, 90%);
+  background-color: hsl(40, 20%, 92%);
+  color: $dark-brown;
+}
+h1.post-title {
+  color: rgb(187, 56, 16);
+}
+h1.post-title {
+}
+li {
+  list-style: none;
+}
+span.post-meta {
+  color: rgb(187, 56, 16);
+}
+a.post-link {
   color: $dark-brown;
 } /* =Media queries----------------------------------------- */
 @media screen and (min-width: 960px) {
