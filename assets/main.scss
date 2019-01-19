@@ -31,7 +31,11 @@ span.post-meta {
 }
 a.post-link {
   color: $dark-brown;
-} /* =Media queries----------------------------------------- */
+}
+
+/* =Layout------------------------------------------------*/
+
+/* =Media queries----------------------------------------- */
 @media screen and (min-width: 960px) {
   body {
     font-size: 130%;
