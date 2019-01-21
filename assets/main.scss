@@ -12,8 +12,7 @@ html {
 }
 img {
   max-width: 100%;
-
- /* ==Colour variables============= */
+} /* ==Colour variables============= */
 $dark-brown: hsl(33, 75%, 11%);
 body {
   background-color: hsl(40, 20%, 92%);
@@ -23,6 +22,11 @@ body {
 h1.post-title {
   color: rgb(187, 56, 16);
 }
+.site-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+}
 
 li {
   list-style: none;
@@ -30,13 +34,15 @@ li {
 span.post-meta {
   color: rgb(187, 56, 16);
 }
-/* =Links-----------------------------------------------*/
+/*  =Links-----------------------------------------------*/
 a.post-link {
   color: $dark-brown;
 }
+
 .navbar a {
   text-decoration: none;
 }
+
 /* =Layout------------------------------------------------*/
 
 /* =Media queries----------------------------------------- */
@@ -76,4 +82,4 @@ a.post-link {
   .site-title {
     margin-top: 0;
   }
-
+}
