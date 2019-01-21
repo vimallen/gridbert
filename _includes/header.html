@@ -1,19 +1,12 @@
 <header class="site-header">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
 
-  <div class="wrapper">
-<a href="/">
-	<div class="icon-logo"><!-- style are in base.scss -->
+  <nav class="navbar">
 
-</div>
-</a>
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav class="site-nav">
-
-
-
-      <div class="">
+    <ul class="site-nav">
+    <li>
         {% for page in site.pages %}
 				{% unless page.exclude_from_nav %}
           {% if page.title %}
@@ -21,8 +14,8 @@
           {% endif %}
 			{% endunless %}
         {% endfor %}
-      </div>
-    </nav>
+        </li>
+    </ul>
 
   </div>
 

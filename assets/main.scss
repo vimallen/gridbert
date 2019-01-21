@@ -17,6 +17,7 @@ $dark-brown: hsl(33, 75%, 11%);
 body {
   background-color: hsl(40, 20%, 92%);
   color: $dark-brown;
+  font-family: sans-serif;
 }
 h1.post-title {
   color: rgb(187, 56, 16);
@@ -30,9 +31,48 @@ span.post-meta {
 }
 a.post-link {
   color: $dark-brown;
-} /* =Media queries----------------------------------------- */
+}
+
+/* =Layout------------------------------------------------*/
+
+/* =Media queries----------------------------------------- */
 @media screen and (min-width: 960px) {
   body {
     font-size: 130%;
+  }
+  .site-title {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .site-nav li {
+    text-align: center;
+    margin: 15px auto;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+  .site-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .site-nav li {
+    margin: 0;
+  }
+  .page-link {
+    margin-left: 40px;
+  }
+  .site-title {
+    margin-top: 0;
+  }
+  .navbar a {
+    text-decoration: none;
   }
 }
