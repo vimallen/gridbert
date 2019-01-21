@@ -12,12 +12,13 @@ html {
 }
 img {
   max-width: 100%;
-} /* ==Colour variables============= */
+
+ /* ==Colour variables============= */
 $dark-brown: hsl(33, 75%, 11%);
 body {
   background-color: hsl(40, 20%, 92%);
   color: $dark-brown;
-  font-family: sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 h1.post-title {
   color: rgb(187, 56, 16);
@@ -29,10 +30,13 @@ li {
 span.post-meta {
   color: rgb(187, 56, 16);
 }
+/* =Links-----------------------------------------------*/
 a.post-link {
   color: $dark-brown;
 }
-
+.navbar a {
+  text-decoration: none;
+}
 /* =Layout------------------------------------------------*/
 
 /* =Media queries----------------------------------------- */
@@ -72,7 +76,4 @@ a.post-link {
   .site-title {
     margin-top: 0;
   }
-  .navbar a {
-    text-decoration: none;
-  }
-}
+
