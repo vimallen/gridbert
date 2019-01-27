@@ -82,4 +82,9 @@ a.post-link {
   .site-title {
     margin-top: 0;
   }
+  .site-footer {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+  }
 }
