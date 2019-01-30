@@ -78,11 +78,10 @@ html {
 
 img {
   max-width: 100%;
-} /* ==Colour variables============= */
-$dark-brown: hsl(33, 75%, 11%);
+}
 body {
-  background-color: hsl(40, 20%, 92%);
-  color: $dark-brown;
+  background-color: #ffffff;
+  color: #222121;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.0625rem;
   padding: 1rem;
@@ -103,9 +102,9 @@ span.post-meta {
   color: rgb(187, 56, 16);
 }
 /*  =Links-----------------------------------------------*/
-a.post-link {
-  color: $dark-brown;
-}
+// a.post-link {
+//   color: red;
+// }
 
 .navbar a {
   text-decoration: none;
