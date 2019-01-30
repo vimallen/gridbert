@@ -85,10 +85,10 @@ body {
   color: $dark-brown;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.0625rem;
-  padding: 0.625rem;
+  padding: 1rem;
 }
 h1.post-title {
-  color: rgb(187, 56, 16);
+  color: inherit;
 }
 .site-title {
   text-transform: uppercase;
