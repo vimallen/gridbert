@@ -102,7 +102,7 @@ li {
   list-style: none;
 }
 span.post-meta {
-  color: rgb(187, 56, 16);
+  color: teal;
 }
 /*  =Typography-------------------*/
 .site-footer {
@@ -176,6 +176,9 @@ h1.page-heading {
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 2px solid #d75110;
+}
+.module-portfolio {
+  margin-bottom: 3rem;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 800px) {
