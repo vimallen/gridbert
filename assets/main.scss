@@ -86,13 +86,14 @@ body {
   font-size: 1.0625rem;
   padding: 1rem;
 }
-// h1.post-title {
-//   color: pink;
-// }
+p {
+  line-height: 1.5;
+}
+
 .site-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 2rem;
 }
 .site-nav a:not(:last-of-type) {
   padding-right: 0.75rem;
@@ -103,31 +104,39 @@ li {
 span.post-meta {
   color: rgb(187, 56, 16);
 }
+/*  =Typography-------------------*/
+.site-footer {
+  font-size: 1rem;
+}
 
+/*  =Headers--------------------*/
 h1,
 h2,
 h3,
 h4,
 h5 {
-  color: hsl(210, 13%, 40%);
+  color: #3a3a3a;
 }
 h1 {
-  font-size: 2.1rem;
-}
-h2 {
   font-size: 1.8rem;
 }
-h3 {
+h2 {
   font-size: 1.65rem;
 }
-h4 {
+h3 {
   font-size: 1.4rem;
 }
-h5 {
+h4 {
   font-size: 1rem;
+}
+h5 {
+  font-size: 0.75rem;
 }
 
 /*  =Links-----------------------------------------------*/
+a.site-title {
+  color: #3a3a3a;
+}
 a:link {
   color: #d75110;
 }
@@ -143,12 +152,33 @@ a:active {
 
 .navbar a {
   text-decoration: none;
+  color: #3a3a3a;
+}
+a.post-link {
+  text-decoration: none;
+}
+a.post-link:after {
+  content: " >>";
 }
 
 /* =Layout------------------------------------------------*/
-
+ul.post-list li {
+  margin-bottom: 2rem;
+}
+.site-header {
+  margin-bottom: 3rem;
+}
+h1.post-title,
+h1.page-heading {
+  margin-bottom: 1rem;
+}
+.site-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid #d75110;
+}
 /* =Media queries----------------------------------------- */
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 800px) {
   body {
     font-size: 1.25rem;
   }
@@ -157,9 +187,7 @@ a:active {
   }
   .site-title {
     display: inline-block;
-    font-size: 28px;
-    margin-top: 10px;
-    margin-left: 20px;
+    font-size: 4rem;
   }
   .site-nav li {
     text-align: center;
@@ -189,7 +217,11 @@ a:active {
   }
   .site-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+  }
+  .page-content {
+    margin: 0 auto;
+    width: 80%;
   }
 }
