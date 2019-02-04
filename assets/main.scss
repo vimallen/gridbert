@@ -99,7 +99,7 @@ p {
   padding-right: 0.75rem;
 }
 li {
-  list-style: disc;
+  list-style: disc inside;
   line-height: 1.5;
 }
 .site-nav li,
@@ -208,7 +208,7 @@ h1.page-heading {
     max-width: 40rem;
   }
   li {
-    max-width: 40rem;
+    max-width: 42rem;
   }
   .site-title {
     display: inline-block;
