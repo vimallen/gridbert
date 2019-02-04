@@ -3,9 +3,9 @@ title: CV
 author: Dave Allen
 layout: page
 permalink: /cv/
-exclude_from_nav: true
+exclude_from_nav: false
 ---
-# Dave Allen
+# Dave Allen #
 Graphic Designer & Project Manager
 
 ## Why hire me?  

@@ -103,7 +103,8 @@ li {
   line-height: 1.5;
 }
 .site-nav li,
-.site-footer li {
+.site-footer li,
+.post-list li {
   list-style: none;
 }
 span.post-meta {
@@ -117,6 +118,7 @@ h3,
 h4,
 h5 {
   color: #3a3a3a;
+  margin: 1rem 0;
 }
 h1 {
   font-size: 1.8rem;
@@ -128,8 +130,8 @@ h3 {
   font-size: 1.4rem;
 }
 h4 {
-  font-size: 1rem;
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 h5 {
   font-size: 0.75rem;
@@ -203,6 +205,9 @@ h1.page-heading {
     font-size: 1.25rem;
   }
   p {
+    max-width: 40rem;
+  }
+  li {
     max-width: 40rem;
   }
   .site-title {
