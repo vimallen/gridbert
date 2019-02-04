@@ -104,16 +104,6 @@ li {
 span.post-meta {
   color: teal;
 }
-/*  =Typography-------------------*/
-.site-footer {
-  font-size: 1rem;
-}
-blockquote {
-  max-width: 36rem;
-  margin: 1rem 0 1rem 1rem;
-  font-style: italic;
-  line-height: 1.5;
-}
 
 /*  =Headers--------------------*/
 h1,
@@ -138,7 +128,20 @@ h4 {
 h5 {
   font-size: 0.75rem;
 }
+/*  =Typography-------------------*/
+.site-footer {
+  font-size: 1rem;
+}
+blockquote {
+  max-width: 36rem;
+  margin: 1rem 0 1rem 1rem;
+  font-style: italic;
+  line-height: 1.5;
+}
 
+.module-portfolio h3 {
+  margin-bottom: 1rem;
+}
 /*  =Links-----------------------------------------------*/
 a.site-title {
   color: #3a3a3a;
