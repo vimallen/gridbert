@@ -5,6 +5,6 @@
 layout: page
 ---
 
-<div class="bigimage">
+
 <h1>Hello</h1>
-</div>
+
