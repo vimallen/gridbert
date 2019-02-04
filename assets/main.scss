@@ -101,6 +101,10 @@ p {
 li {
   list-style: disc;
 }
+.site-nav li,
+.site-footer li {
+  list-style: none;
+}
 span.post-meta {
   color: teal;
 }
