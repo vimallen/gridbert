@@ -3,7 +3,7 @@ title: CV
 author: Dave Allen
 layout: page
 permalink: /cv/
-exclude_from_nav: false
+exclude_from_nav: true
 ---
 # Dave Allen #
 Graphic Designer & Project Manager
