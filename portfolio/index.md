@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 author: Dave Allen
-layout: page
+layout: portfolio
 permalink: /portfolio/
 ---
 
