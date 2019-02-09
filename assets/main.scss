@@ -200,7 +200,7 @@ a.post-link {
   text-decoration: none;
 }
 a.post-link:after {
-  content: " >>";
+  content: "\2026 ";
 }
 
 /* =Layout------------------------------------------------*/
@@ -272,9 +272,9 @@ h1.page-heading {
   h1.home-header {
     margin-bottom: -6rem;
   }
-  // .home-image {
-  //   max-width: 50rem;
-  // }
+  .home-image {
+    max-width: 50rem;
+  }
   .site-footer {
     display: flex;
     justify-content: space-around;
