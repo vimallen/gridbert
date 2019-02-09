@@ -84,6 +84,10 @@ body {
   color: #3a3a3a;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.0625rem;
+}
+.site-header,
+.page-content,
+.site-footer {
   padding: 1rem;
 }
 p {
@@ -223,7 +227,7 @@ h1.page-heading {
   }
   .site-title {
     display: inline-block;
-    font-size: 4rem;
+    // font-size: 2rem;
   }
   .site-nav li {
     text-align: center;
@@ -252,7 +256,7 @@ h1.page-heading {
     margin-top: 0;
   }
   .site-header {
-    padding: 0 2rem;
+    padding-top: 2.25rem;
   }
   .site-footer {
     display: flex;

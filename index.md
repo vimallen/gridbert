@@ -4,7 +4,8 @@
 
 layout: page
 ---
-
-
 <h1>Hello</h1>
+<figure><img src="/images/press.jpg"/></figure>
+
+
 
