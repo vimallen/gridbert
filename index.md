@@ -4,8 +4,9 @@
 
 layout: page
 ---
+
 <h1 class="home-header">Hello.</h1>
-<figure class="home-image"><img src="/images/press.jpg"/></figure>
+<figure class="home-image"><img src="/images/press-1600.jpg"/></figure>
 
 
 

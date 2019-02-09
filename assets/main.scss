@@ -209,6 +209,7 @@ ul.post-list li {
 }
 .site-header {
   margin-bottom: 3rem;
+  border-bottom: 2px solid #d75110;
 }
 h1.post-title,
 h1.page-heading {
@@ -266,11 +267,14 @@ h1.page-heading {
     margin-top: 0;
   }
   .site-header {
-    padding-top: 2.25rem;
+    padding: 2.25rem 4.25rem;
   }
   h1.home-header {
-    margin-bottom: -5rem;
+    margin-bottom: -6rem;
   }
+  // .home-image {
+  //   max-width: 50rem;
+  // }
   .site-footer {
     display: flex;
     justify-content: space-around;
