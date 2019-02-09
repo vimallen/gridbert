@@ -140,6 +140,16 @@ h5 {
   font-size: 0.75rem;
 }
 
+h1.home-header {
+  font-size: 3rem;
+  // margin-bottom: -5rem;
+  z-index: 20;
+  position: relative;
+}
+.home-image {
+  // border: 2px hotpink solid;
+  z-index: 10;
+}
 /* Target Kramdown generated IDs on CV page*/
 
 h1,
@@ -257,6 +267,9 @@ h1.page-heading {
   }
   .site-header {
     padding-top: 2.25rem;
+  }
+  h1.home-header {
+    margin-bottom: -5rem;
   }
   .site-footer {
     display: flex;
