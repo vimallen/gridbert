@@ -191,6 +191,9 @@ a:hover {
 a:active {
   color: hsla(180, 83%, 36%, 0.911);
 }
+a:focus {
+  border: 1px dotted teal;
+}
 
 .navbar a {
   text-decoration: none;
