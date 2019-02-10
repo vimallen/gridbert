@@ -142,12 +142,14 @@ h5 {
 
 h1.home-header {
   font-size: 3rem;
-  // margin-bottom: -5rem;
-  z-index: 20;
   position: relative;
 }
+.welcome {
+  position: relative;
+}
+
 .home-image {
-  // border: 2px hotpink solid;
+  // margin-top: -3rem;
   z-index: 10;
 }
 /* Target Kramdown generated IDs on CV page*/
@@ -211,7 +213,7 @@ ul.post-list li {
   margin-bottom: 2rem;
 }
 .site-header {
-  margin-bottom: 3rem;
+  // margin-bottom: 3rem;
   border-bottom: 2px solid #d75110;
 }
 h1.post-title,
@@ -272,12 +274,11 @@ h1.page-heading {
   .site-header {
     padding: 2.25rem 4.25rem;
   }
-  h1.home-header {
-    margin-bottom: -6rem;
-  }
   .home-image {
-    max-width: 50rem;
+    margin-top: -3rem;
+    max-width: 48rem;
   }
+
   .site-footer {
     display: flex;
     justify-content: space-around;

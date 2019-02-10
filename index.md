@@ -4,8 +4,11 @@
 
 layout: page
 ---
-
 <h1 class="home-header">Hello.</h1>
+<p class="welcome">
+    I design for print and the web.
+</p>   
+
 <figure class="home-image"><img src="/images/press-1600.jpg"/></figure>
 
 
