@@ -93,6 +93,9 @@ body {
 p {
   line-height: 1.5;
 }
+.module-portfolio p {
+  // line-height: 2;
+}
 
 .site-title {
   text-transform: uppercase;
@@ -122,7 +125,7 @@ h3,
 h4,
 h5 {
   color: #3a3a3a;
-  line-height: 1.3;
+  // line-height: 1.3;
 }
 h1 {
   font-size: 1.8rem;
@@ -174,9 +177,9 @@ blockquote {
   line-height: 1.5;
 }
 
-.module-portfolio h3 {
-  margin-bottom: 1rem;
-}
+// .module-portfolio h3 {
+//   margin-bottom: 1rem;
+// }
 /*  =Links-----------------------------------------------*/
 a.site-title {
   color: #3a3a3a;
@@ -210,7 +213,7 @@ a.post-link:after {
 
 /* =Layout------------------------------------------------*/
 ul.post-list li {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .site-header {
   // margin-bottom: 3rem;
@@ -219,6 +222,10 @@ ul.post-list li {
 h1.post-title,
 h1.page-heading {
   margin-bottom: 1rem;
+}
+
+figure {
+  margin-bottom: 2rem;
 }
 .site-footer {
   margin-top: 2rem;
@@ -229,6 +236,64 @@ h1.page-heading {
   margin-bottom: 3rem;
   background-color: #eaeade;
   padding: 0.75rem;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
+
+/*
+* Extends the .visuallyhidden class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
 }
 /* =Media queries----------------------------------------- */
 @media screen and (min-width: 700px) {
@@ -273,6 +338,7 @@ h1.page-heading {
   }
   .site-header {
     padding: 2.25rem 4.25rem;
+    margin-bottom: 2rem;
   }
   .home-image {
     margin-top: -3rem;
@@ -295,5 +361,80 @@ h1.page-heading {
   }
   .module-portfolio {
     width: 45%;
+  }
+}
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
   }
 }
