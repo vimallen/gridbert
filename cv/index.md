@@ -21,7 +21,7 @@ Graphic Designer & Project Manager
 * I am highly experienced in helping stakeholders decide where to spend limited time, personnel resources and budget.
 
 <h3>
-EXPERIENCE     
+EXPERIENCE   
 </h3>
  
 #### Andy Thornton Ltd, Elland (present), Graphic Designer.  
