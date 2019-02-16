@@ -24,6 +24,8 @@ github_username: vimallen
 
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_ids: false
 # theme: minima
 plugins:
   - jekyll-feed

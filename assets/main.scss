@@ -125,7 +125,13 @@ h4,
 h5 {
   color: #3a3a3a;
   line-height: 1.4;
+  padding-top: 0.875rem;
+  padding-bottom: 0.75rem;
 }
+ul.post-list h2 {
+  padding: inherit;
+}
+
 // h1 {
 //   font-size: 1.8rem;
 // }

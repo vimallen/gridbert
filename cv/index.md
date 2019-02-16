@@ -5,14 +5,10 @@ layout: page
 permalink: /cv/
 exclude_from_nav: true
 ---
-<h1>
-    Dave Allen
-</h1>  
+# Dave Allen
 Graphic Designer & Project Manager
 
-<h2>
-    Why hire me?  
-</h2>
+## Why hire me?  
 * I’m experienced enough to know that design is not just decoration. The designer is there to deliver a benefit, solve a problem or prompt an action.  
 * My skills are up to date, from the supply of pristine press-ready artwork files to mobile-first website design.
 * I can communicate. I listen to the brief and can explain my proposals to clients and colleagues.  
@@ -20,9 +16,8 @@ Graphic Designer & Project Manager
 * I’ll never stop learning.
 * I am highly experienced in helping stakeholders decide where to spend limited time, personnel resources and budget.
 
-<h3>
-EXPERIENCE   
-</h3>
+
+### EXPERIENCE   
  
 #### Andy Thornton Ltd, Elland (present), Graphic Designer.  
 Andy Thornton is leading supplier of furniture, lighting and architectural salvage for restaurants, bars and hotels. Originally appointed on a one-year contract(!), my role and skills have been transformed dramatically during my employment. A recurring aspect has been the management of a number of large scale projects.
