@@ -203,6 +203,11 @@ a.post-link:after {
   content: "\2026 ";
 }
 
+a[href$="pdf"] {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
 /* =Layout------------------------------------------------*/
 ul.post-list li {
   margin-bottom: 2rem;
