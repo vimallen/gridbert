@@ -6,7 +6,6 @@ exclude_from_nav: true
 permalink: /vintage-style-from-andy-thornton/
 ---
 The new 160-page Vintage Style catalogue from Andy Thornton. A custom page size of 210 x 264 mm on uncoated stock. All design and artwork by myself. Product and mood photography by [Powerhouse][1]. Location photography by [Anton Stark][2]. Printed by [Sterling][3].    
-<br>
 
 [Download PDF][4]
 <figure><img src="../images/cover-vintage-style.jpg" alt="spread from Andy Thornton vintage style catalogue" /></figure>
