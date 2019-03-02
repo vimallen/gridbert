@@ -176,6 +176,9 @@ blockquote {
 a.site-title {
   color: #3a3a3a;
 }
+a.site-title:hover {
+  color: teal;
+}
 a:link {
   color: #d75110;
 }
@@ -195,6 +198,10 @@ a:focus {
 .navbar a {
   text-decoration: none;
   color: #3a3a3a;
+}
+
+.site-nav a:hover {
+  color: teal;
 }
 a.post-link {
   text-decoration: none;
