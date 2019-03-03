@@ -95,9 +95,8 @@ p {
 }
 
 .site-title {
-  text-transform: uppercase;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.75rem;
 }
 .site-nav a:not(:last-of-type) {
   padding-right: 0.75rem;
@@ -334,6 +333,7 @@ figure {
   }
   .site-nav li {
     margin: 0;
+    font-weight: 700;
   }
   .page-link {
     margin-left: 40px;
