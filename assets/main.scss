@@ -95,9 +95,8 @@ p {
 }
 
 .site-title {
-  text-transform: uppercase;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.75rem;
 }
 .site-nav a:not(:last-of-type) {
   padding-right: 0.75rem;
@@ -193,6 +192,9 @@ a:active {
 }
 a:focus {
   border: 1px dotted teal;
+}
+a.page-link {
+  font-weight: 700;
 }
 
 .navbar a {
