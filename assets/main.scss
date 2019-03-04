@@ -96,7 +96,10 @@ p {
 
 .site-title {
   font-weight: 700;
-  font-size: 2.75rem;
+  font-size: 2.25rem;
+}
+.site-nav {
+  padding-top: 1rem;
 }
 .site-nav a:not(:last-of-type) {
   padding-right: 0.75rem;
@@ -315,7 +318,7 @@ figure {
   }
   .site-title {
     display: inline-block;
-    // font-size: 2rem;
+    font-size: 2.75rem;
   }
   .site-nav li {
     text-align: center;
@@ -340,9 +343,7 @@ figure {
   .page-link {
     margin-left: 40px;
   }
-  .site-title {
-    margin-top: 0;
-  }
+
   .site-header {
     padding: 2.25rem 4.25rem;
     margin-bottom: 2rem;
